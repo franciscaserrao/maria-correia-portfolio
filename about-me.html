@@ -18,42 +18,74 @@
     />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
-        <img
-          src="https://framerusercontent.com/images/QkV6yF8zyo57kjS7gwFcP9EjLc.png?scale-down-to=512"
-          alt="Maria Correia logo"
-          class="navbar-logo"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="about-me.html"
-              >About me <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contacts</a>
-          </li>
-        </ul>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://framerusercontent.com/images/QkV6yF8zyo57kjS7gwFcP9EjLc.png?scale-down-to=512"
+            alt="Maria Correia logo"
+            class="navbar-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link header-topic underline" href="about-me.html"
+                >About me <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-topic" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-topic" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="aboutContent">
+      <h1 class="about-head">Hey,</h1>
+      <div class="about-1st-paragraph">
+        My name is Maria, and I want to introduce myself so that you can get to
+        know me better. “There are many Marias” (I know), but I would like to
+        explain what makes me unique.
       </div>
-    </nav>
-    <h1>About me</h1>
+      <div class="about-1st-paragraph">
+        As a middle child, I developed the ability to be less visible and more
+        dreamy. Thirty years later, I still enjoy dreaming, but I realized that
+        turning what we imagine into reality is more useful and fun. We stop
+        playing pretend and start living it. This, of course, if we are brave
+        enough to take the risk!
+      </div>
+      <div class="about-1st-paragraph">
+        Curious?? Just check my journey map below.
+      </div>
+      <video
+        src="https://framerusercontent.com/assets/5nQmQHgjdmsOGHYmsZrSMU3DXd0.mp4"
+      ></video>
+    </div>
+    <footer class="footer">
+      <div class="footer-name">Maria Correia</div>
+      <div>mariasscorreia@hotmail.com</div>
+    </footer>
   </body>
 </html>

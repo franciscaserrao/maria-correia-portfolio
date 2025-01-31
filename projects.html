@@ -18,42 +18,59 @@
     />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
-        <img
-          src="https://framerusercontent.com/images/QkV6yF8zyo57kjS7gwFcP9EjLc.png?scale-down-to=512"
-          alt="Maria Correia logo"
-          class="navbar-logo"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="about-me.html"
-              >About me <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contacts</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <h1>Projects</h1>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://framerusercontent.com/images/QkV6yF8zyo57kjS7gwFcP9EjLc.png?scale-down-to=512"
+            alt="Maria Correia logo"
+            class="navbar-logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link header-topic" href="about-me.html"
+                >About me <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-topic" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-topic" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="homepageContent">
+      <h1 id="homepageName">Maria S. Correia</h1>
+      <h3 id="homepageShall">
+        <a href="about-me.html" class="homepage-Shall">Shall we?</a>
+      </h3>
+    </div>
+    <footer class="footer">
+      <div class="footer-name">Maria Correia</div>
+      <div>mariasscorreia@hotmail.com</div>
+    </footer>
   </body>
 </html>
