@@ -1,0 +1,65 @@
+body {
+  background-color: #fefcf6 !important;
+}
+
+.header {
+  background-color: #fefcf6;
+  padding: 17px 40px;
+  border: 1px solid #f2f1eb;
+  font-size: 15px;
+}
+
+.navbar-logo {
+  display: block;
+  height: 35px;
+}
+
+.header-topic {
+  color: black;
+}
+
+.header-topic:hover {
+  color: #f9c50a;
+  text-decoration: underline !important;
+}
+
+#homepageContent {
+  margin: 220px 100px 180px 100px;
+}
+
+#homepageName {
+  text-align: right;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(23, 21, 21);
+  font-family: "Gothic A1", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+#homepageShall {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 100 !important;
+  font-family: "Gothic A1", sans-serif;
+  margin-top: 105px;
+}
+
+.homepage-Shall {
+  color: black;
+  text-decoration: none;
+}
+
+.homepage-Shall:hover {
+  color: #f9c50a;
+  text-decoration: underline !important;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #75746e;
+}
+
+.footer-name {
+  margin-bottom: 10px;
+}
