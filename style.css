@@ -145,3 +145,13 @@ body {
   margin: 20px 0 250px 0;
   line-height: 36px;
 }
+
+#projectsContent {
+  margin: 90px 220px;
+}
+
+.project-head {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: "Gothic A1", sans-serif;
+}
