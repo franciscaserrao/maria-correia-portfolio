@@ -148,10 +148,73 @@ body {
 
 #projectsContent {
   margin: 90px 220px;
+  padding-top: 100px;
 }
 
 .project-head {
   font-weight: 700;
   letter-spacing: 0.1em;
   font-family: "Gothic A1", sans-serif;
+  padding-bottom: 30px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  margin: 50px 0 95px 0;
+}
+
+.extra {
+  gap: 50px;
+}
+
+.sbs {
+  width: 180px;
+  height: 250px;
+}
+
+.hisf {
+  width: 260px;
+  height: 160px;
+}
+
+.projects-title {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.projects-text {
+  font-size: 19px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  line-height: 36px;
+  margin: 60px 0;
+}
+
+.projects-button {
+  background-color: #f9c50a;
+  border: 1px solid #f9c50a;
+  border-radius: 10px;
+  padding: 7px 70px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.projects-button:hover {
+  cursor: pointer;
+}
+
+.work-done {
+  align-items: center;
+  gap: 60px;
+}
+
+.wedding-picture {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
