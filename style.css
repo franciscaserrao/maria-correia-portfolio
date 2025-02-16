@@ -424,11 +424,17 @@ body {
   font-family: "Gothic A1", sans-serif;
 }
 
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 55px 0 20px 0;
+}
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   color: rgb(249, 197, 13);
-  font-size: 50px !important;
-  margin: 45px 0 20px 0;
+  font-size: 57px !important;
 }
 
 .contact-text {
@@ -438,8 +444,33 @@ body {
   line-height: 40px;
 }
 
-.phone {
+.talk {
+  margin: 65px 0 55px 0;
+  text-align: right;
+  color: rgb(249, 197, 13);
+  font-family: "Gothic A1", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 48px;
+}
+
+.stepup {
+  margin: 58px 0 55px 0;
+  text-align: right;
+  color: #2b2a2a;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 48px;
+}
+
+.call {
   display: flex;
-  align-items: center;
-  gap: 50px;
+  justify-content: right;
+  margin-bottom: 165px;
+}
+
+.call img {
+  height: 180px;
+  border-radius: 10px;
 }
