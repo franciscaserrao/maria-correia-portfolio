@@ -411,3 +411,15 @@ body {
   width: 100%;
   height: 100%;
 }
+
+#contactsContent {
+  margin: 40px 100px 0 100px;
+  padding-top: 110px;
+}
+
+.contact-head {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: "Gothic A1", sans-serif;
+}
