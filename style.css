@@ -111,7 +111,7 @@ body {
 }
 .row {
   display: flex;
-  align-items: top;
+  align-items: center;
   gap: 90px;
 }
 .row img {
@@ -473,4 +473,130 @@ body {
 .call img {
   height: 180px;
   border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media (min-width: 600px) and (max-width: 767.98px) {
+  .navbar-brand {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  .navbar-toggler-icon {
+    background: none;
+  }
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after,
+  .navbar-toggler-icon span {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: rgb(249, 197, 13);
+  }
+
+  .navbar-toggler-icon span {
+    background-color: rgb(249, 197, 13);
+  }
+
+  .yellow {
+    color: rgb(249, 197, 13);
+  }
+
+  #homepageContent {
+    margin: 220px 50px 180px 50px;
+  }
+
+  #homepageName {
+    font-size: 50px;
+  }
+
+  #aboutContent {
+    margin: 50px 20px;
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 599.98px) {
+  .navbar-brand {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  .navbar-toggler-icon {
+    background: none;
+  }
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after,
+  .navbar-toggler-icon span {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: rgb(249, 197, 13);
+  }
+
+  .navbar-toggler-icon span {
+    background-color: rgb(249, 197, 13);
+  }
+
+  .yellow {
+    color: rgb(249, 197, 13);
+  }
+
+  #homepageContent {
+    margin: 220px 20px 180px 50px;
+  }
+
+  #homepageName {
+    font-size: 45px;
+  }
+
+  #homepageShall {
+    font-size: 30px;
+  }
+
+  #aboutContent {
+    margin: 50px 30px;
+    padding-top: 100px;
+  }
+
+  .about-head {
+    font-size: 30px;
+  }
+
+  .about-1st-paragraph,
+  .about-2nd-paragraph,
+  .ps-text,
+  .about-3rd-paragraph {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .row {
+    gap: 40px;
+  }
+
+  .ps-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .about-3rd-paragraph {
+    margin: 20px 0 100px 0;
+  }
 }
