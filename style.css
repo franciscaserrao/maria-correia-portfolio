@@ -520,8 +520,12 @@ body {
   }
 
   #aboutContent {
-    margin: 50px 20px;
+    margin: 50px 40px;
     padding-top: 100px;
+  }
+
+  .row {
+    gap: 40px;
   }
 }
 
@@ -589,6 +593,13 @@ body {
 
   .row {
     gap: 40px;
+    flex-direction: column;
+  }
+
+  .row img {
+    order: -1;
+    align-self: flex-start;
+    max-width: 100%;
   }
 
   .ps-title {
