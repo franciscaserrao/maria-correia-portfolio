@@ -384,3 +384,30 @@ body {
   width: 135px;
   height: 190px;
 }
+
+.cs-sbs {
+  width: 135px;
+  height: 190px;
+}
+
+.hisf-logo {
+  width: auto;
+  height: 377px;
+}
+
+.proportion {
+  position: relative;
+  width: 100%;
+  padding-bottom: 35%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.proportion iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
