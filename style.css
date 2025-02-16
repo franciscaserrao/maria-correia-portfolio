@@ -214,12 +214,6 @@ body {
   margin: 55px 0 85px 0;
 }
 
-.row {
-  display: flex;
-  justify-content: center; /* Centers the row items */
-  gap: 140px;
-}
-
 .work-done {
   display: flex;
   flex-direction: column;
@@ -254,9 +248,8 @@ body {
 }
 
 #sbsContent {
-  margin: 40px 100px;
+  margin: 40px 100px 0 100px;
   padding-top: 100px;
-  padding-bottom: 400px;
 }
 
 .project-logo {
@@ -335,6 +328,7 @@ body {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .video-container iframe {
@@ -343,4 +337,50 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.article {
+  margin: 50px 0 55px 0;
+  text-align: right;
+  color: rgb(249, 197, 13);
+  font-family: "Gothic A1", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 36px;
+}
+
+.article-link {
+  color: black;
+}
+
+.article-link:hover {
+  color: rgb(249, 197, 13);
+}
+
+.case-study-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 475px 0;
+}
+
+.cs-logo1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 65px 0 0;
+}
+
+.cs-logo2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 45px;
+}
+
+.cs-hisf {
+  width: 310px;
+  height: 190px;
+}
+
+.cs-cm {
+  width: 135px;
+  height: 190px;
 }
