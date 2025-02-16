@@ -423,3 +423,23 @@ body {
   letter-spacing: 0.1em;
   font-family: "Gothic A1", sans-serif;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: rgb(249, 197, 13);
+  font-size: 50px !important;
+  margin: 45px 0 20px 0;
+}
+
+.contact-text {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  line-height: 40px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
