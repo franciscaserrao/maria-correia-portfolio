@@ -640,6 +640,11 @@ body {
     padding: 0;
     margin-bottom: 10px;
   }
+
+  .hisf-logo {
+    width: auto;
+    height: 270px;
+  }
 }
 
 @media (min-width: 100px) and (max-width: 599.98px) {
@@ -810,5 +815,10 @@ body {
   .cs-logo2 {
     padding: 0;
     margin-bottom: 10px;
+  }
+
+  .hisf-logo {
+    width: auto;
+    height: 170px;
   }
 }
