@@ -645,6 +645,10 @@ body {
     width: auto;
     height: 270px;
   }
+
+  #contactsContent {
+    margin: 40px 50px 0 50px;
+  }
 }
 
 @media (min-width: 100px) and (max-width: 599.98px) {
@@ -820,5 +824,33 @@ body {
   .hisf-logo {
     width: auto;
     height: 170px;
+  }
+
+  #contactsContent {
+    margin: 20px 20px 0 30px;
+  }
+
+  .contact-head {
+    font-size: 50px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 47px !important;
+  }
+
+  .phone {
+    gap: 20px;
+  }
+
+  .contact-text {
+    font-size: 15px;
+  }
+
+  .talk {
+    font-size: 30px;
+  }
+
+  .stepup {
+    font-size: 30px;
   }
 }
