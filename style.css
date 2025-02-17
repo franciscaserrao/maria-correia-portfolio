@@ -475,7 +475,31 @@ body {
   border-radius: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 1160px) and (max-width: 1359px) {
+  #projectsContent {
+    margin: 90px 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1159px) {
+  #projectsContent {
+    margin: 90px 70px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-done {
+    margin: 10px 0;
+    gap: 20px;
+  }
+
+  .work-button {
+    padding: 7px 25px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 767.98px) {
@@ -526,6 +550,49 @@ body {
 
   .row {
     gap: 40px;
+  }
+
+  #projectsContent {
+    margin: 60px 50px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+  }
+
+  .projects img {
+    margin-bottom: 10px;
+  }
+
+  .projects-title {
+    font-size: 37px;
+    margin-bottom: 15px;
+  }
+
+  .projects-text {
+    margin: 30px 0 60px 0;
+  }
+
+  .projects-button {
+    padding: 7px 40px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-done {
+    margin: 10px 0;
+    gap: 20px;
+  }
+
+  .work-button {
+    padding: 7px 25px;
   }
 }
 
@@ -609,5 +676,51 @@ body {
 
   .about-3rd-paragraph {
     margin: 20px 0 100px 0;
+  }
+
+  #projectsContent {
+    margin: 50px 35px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+  }
+
+  .projects img {
+    margin-bottom: 10px;
+  }
+
+  .projects-title {
+    font-size: 37px;
+    margin-bottom: 15px;
+  }
+
+  .projects-text {
+    margin: 30px 0 60px 0;
+  }
+
+  .projects-button {
+    padding: 7px 40px;
+  }
+
+  .work-done {
+    margin: 10px 0;
+    gap: 20px;
+  }
+
+  .work-button {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .wedding-picture {
+    order: initial !important;
+    align-self: auto !important;
+    max-width: none !important;
+    width: 275px !important;
+    height: 275px !important;
   }
 }
