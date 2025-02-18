@@ -864,4 +864,8 @@ body {
     width: 120px;
     height: 160px;
   }
+
+  .contact-text {
+    color: #2b2a2a !important;
+  }
 }
