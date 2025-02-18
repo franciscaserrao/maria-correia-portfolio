@@ -446,6 +446,8 @@ body {
   line-height: 40px;
   color: #2b2a2a;
   text-decoration: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .talk {
