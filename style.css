@@ -433,10 +433,22 @@ body {
   margin: 55px 0 20px 0;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+.fa-solid,
+.fa-phone {
   color: rgb(249, 197, 13);
-  font-size: 57px !important;
+  font-size: 45px !important;
+}
+
+.fa-brands,
+.fa-linkedin {
+  color: rgb(249, 197, 13);
+  font-size: 50px !important;
+}
+
+.fa-regular,
+.fa-envelope {
+  color: rgb(249, 197, 13);
+  font-size: 45px !important;
 }
 
 .contact-text {
@@ -861,8 +873,19 @@ body {
     font-size: 50px;
   }
 
-  .material-symbols-outlined {
-    font-size: 47px !important;
+  .fa-solid,
+  .fa-phone {
+    font-size: 35px !important;
+  }
+
+  .fa-regular,
+  .fa-envelope {
+    font-size: 35px !important;
+  }
+
+  .fa-brands,
+  .fa-linkedin {
+    font-size: 40px !important;
   }
 
   .phone {
