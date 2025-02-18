@@ -197,6 +197,7 @@ body {
 .projects-button {
   background-color: #f9c50a;
   border: 1px solid #f9c50a;
+  color: #2b2a2a;
   border-radius: 10px;
   padding: 7px 70px;
   font-family: "Inter", sans-serif;
@@ -230,6 +231,7 @@ body {
 .work-button {
   background-color: #f9c50a;
   border: 1px solid #f9c50a;
+  color: #2b2a2a;
   border-radius: 10px;
   padding: 7px 35px;
   font-family: "Inter", sans-serif;
@@ -852,5 +854,10 @@ body {
 
   .stepup {
     font-size: 30px;
+  }
+
+  .sbs {
+    width: 120px;
+    height: 160px;
   }
 }
