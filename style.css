@@ -446,8 +446,6 @@ body {
   line-height: 40px;
   color: #2b2a2a;
   text-decoration: none;
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
 }
 
 .talk {
@@ -863,9 +861,5 @@ body {
   .sbs {
     width: 120px;
     height: 160px;
-  }
-
-  .contact-text {
-    color: #2b2a2a !important;
   }
 }
