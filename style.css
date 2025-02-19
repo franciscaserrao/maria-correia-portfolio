@@ -158,6 +158,10 @@ body {
   padding-bottom: 30px;
 }
 
+h2 {
+  font-size: 40px !important;
+}
+
 .projects {
   display: flex;
   align-items: center;
@@ -635,7 +639,7 @@ body {
   }
 
   .project-head {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   .graphics img {
@@ -823,7 +827,7 @@ body {
   }
 
   .project-head {
-    font-size: 35px;
+    font-size: 35px !important;
   }
 
   .graphics img {
